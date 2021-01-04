@@ -4,6 +4,8 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dosx001&title_color=fff&text_color=00e7ff&bg_color=151515)
 
+<a href="https://raw.githubusercontent.com/Dosx001/Dosx001/main/Resume.pdf"><h1>My Resume</h1></a>
+
 <!--
 **Dosx001/Dosx001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
