@@ -3,6 +3,7 @@
 ![Dosx001's github stats](https://github-readme-stats.vercel.app/api/?username=Dosx001&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=151515)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dosx001&langs_count=8&layout=compact&title_color=fff&text_color=00e7ff&bg_color=151515)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dosx001&theme=black-ice)](https://github.com/denvercoder1/github-readme-streak-stats)
 
 <a href="https://raw.githubusercontent.com/Dosx001/Dosx001/main/Resume.pdf"><h1>My Resume</h1></a>
 
