@@ -1,0 +1,170 @@
+html {
+    padding-top: 3.5rem;
+    background: white;
+}
+
+aside {
+    position: absolute;
+    width: 29%;
+}
+
+aside h2 {
+    margin-top: 1.25rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    margin: 5px 0px 0px 0px;
+    <!-- width: 100%; -->
+}
+
+h2, #header {
+    background: darkred;
+    color: white;
+}
+
+b, text {
+    padding-left: .5rem;
+    box-decoration-break: clone;
+}
+
+a {
+    color: purple;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 1.25rem;
+}
+
+.date {
+    position: absolute;
+    right: 10px;
+}
+
+.title {
+}
+
+.code {
+}
+
+.lib {
+    border: 1px solid black;
+    border-radius: 0px !important;
+    padding: 0 !important;
+}
+
+.frame {
+    color: white;
+}
+
+.color {
+    padding: 0 3px 0 3px;
+    border-radius: 1rem;
+}
+
+.red {
+    background: red;
+}
+
+.lightcoral {
+    background: lightcoral;
+}
+
+.coral {
+    background: coral;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.yellowgreen {
+    background: yellowgreen;
+}
+
+.lightgreen {
+    background: lightgreen;
+}
+
+.green {
+    background: green;
+}
+
+.springgreen {
+    background: springgreen;
+}
+
+.lime {
+    background: lime;
+}
+
+.aqua {
+    background: aqua;
+}
+
+.dodgerblue {
+    background: dodgerblue;
+}
+
+.lightblue {
+    background: lightblue;
+}
+
+.blue {
+    background: blue;
+}
+
+.purple {
+    background: purple;
+}
+
+.magenta {
+    background: magenta;
+}
+
+.lightpink {
+    background: lightpink;
+}
+
+.deeppink {
+    background: deeppink;
+}
+
+#right {
+    margin-left: 30%;
+    border-left: 2px solid black;
+    padding-left: 4px;
+}
+
+#right h2 {
+    margin-top: .5rem;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 5px;
+}
+
+#name {
+    margin: 0rem;
+}
+
+#info li {
+    margin: 0rem;
+    font-size: 1rem;
+    padding-left: 0rem;
+}

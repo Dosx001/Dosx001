@@ -5,6 +5,9 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dosx001&langs_count=8&layout=compact&title_color=fff&text_color=00e7ff&bg_color=151515)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dosx001&theme=black-ice)](https://github-readme-streak-stats.herokuapp.com/?user=Dosx001&theme=black-ice)
 
+<h1><a href="https://raw.githubusercontent.com/Dosx001/Dosx001/main/MyResume/resume.pdf">My Resume</a></h1>
+
+
 <!--
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
