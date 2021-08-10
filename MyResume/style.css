@@ -25,7 +25,7 @@ h2 {
 }
 
 h2, #header {
-    background: darkred;
+    background: teal;
     color: white;
 }
 
@@ -35,7 +35,7 @@ b, text {
 }
 
 a {
-    color: purple;
+    color: dodgerblue;
 }
 
 ul {
@@ -51,25 +51,27 @@ ul {
 .title {
 }
 
+.code, .lib, .frame {
+    text-decoration: underline;
+}
+
 .code {
+    text-decoration-color: red;
 }
 
 .lib {
-    border: 1px solid black;
-    border-radius: 0px !important;
-    padding: 0 !important;
+    text-decoration-color: blue;
 }
 
 .frame {
-    color: white;
+    text-decoration-color: magenta;
 }
 
 .color {
-    padding: 0 3px 0 3px;
-    border-radius: 1rem;
 }
 
-.red {
+
+/* .red {
     background: red;
 }
 
@@ -140,6 +142,7 @@ ul {
 .deeppink {
     background: deeppink;
 }
+*/
 
 #right {
     margin-left: 30%;
