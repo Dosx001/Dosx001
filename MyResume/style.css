@@ -21,7 +21,6 @@ h2 {
     font-size: 1.5rem;
     padding-left: .5rem;
     margin: 5px 0px 0px 0px;
-    <!-- width: 100%; -->
 }
 
 h2, #header {
@@ -66,83 +65,6 @@ ul {
 .frame {
     text-decoration-color: magenta;
 }
-
-.color {
-}
-
-
-/* .red {
-    background: red;
-}
-
-.lightcoral {
-    background: lightcoral;
-}
-
-.coral {
-    background: coral;
-}
-
-.orange {
-    background: orange;
-}
-
-.yellow {
-    background: yellow;
-}
-
-.yellowgreen {
-    background: yellowgreen;
-}
-
-.lightgreen {
-    background: lightgreen;
-}
-
-.green {
-    background: green;
-}
-
-.springgreen {
-    background: springgreen;
-}
-
-.lime {
-    background: lime;
-}
-
-.aqua {
-    background: aqua;
-}
-
-.dodgerblue {
-    background: dodgerblue;
-}
-
-.lightblue {
-    background: lightblue;
-}
-
-.blue {
-    background: blue;
-}
-
-.purple {
-    background: purple;
-}
-
-.magenta {
-    background: magenta;
-}
-
-.lightpink {
-    background: lightpink;
-}
-
-.deeppink {
-    background: deeppink;
-}
-*/
 
 #right {
     margin-left: 30%;
