@@ -14,7 +14,6 @@ aside h2 {
 
 h1 {
     font-size: 3rem;
-    color: white;
 }
 
 h2 {
@@ -47,6 +46,10 @@ ul {
     right: 10px;
 }
 
+.git {
+    color: lightseagreen;
+}
+
 .title {
 }
 
@@ -55,7 +58,7 @@ ul {
 }
 
 .code {
-    text-decoration-color: red;
+    text-decoration-color: green;
 }
 
 .lib {
