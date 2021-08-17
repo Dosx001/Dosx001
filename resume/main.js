@@ -1,4 +1,4 @@
-fetch('info.json')
+fetch('data.json')
     .then(resp => {
     return resp.json()
     })
