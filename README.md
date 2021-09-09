@@ -1,9 +1,9 @@
 ### Hi there 👋
 
-![Dosx001's github stats](https://github-readme-stats.vercel.app/api/?username=Dosx001&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=151515)
+![Dosx001's github stats](https://github-readme-stats.vercel.app/api/?username=Dosx001&count_private=true&include_all_commits=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=151515)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dosx001&langs_count=10&layout=compact&title_color=fff&text_color=00e7ff&bg_color=151515)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dosx001&theme=black-ice)](https://github-readme-streak-stats.herokuapp.com/?user=Dosx001&theme=black-ice)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dosx001&theme=black-ice)
 
 <h1><a href="https://raw.githubusercontent.com/Dosx001/Dosx001/main/resume/resume.pdf">My Resume</a></h1>
 
