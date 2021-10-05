@@ -91,12 +91,6 @@ ul {
     margin: 0rem;
 }
 
-#info li {
-    margin: 0rem;
-    font-size: 1rem;
-    padding-left: 0rem;
-}
-
 #resume {
     display: none;
     position: absolute;
