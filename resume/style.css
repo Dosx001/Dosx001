@@ -9,7 +9,7 @@ aside {
 }
 
 aside h2 {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 h1 {
@@ -48,6 +48,7 @@ ul {
 
 .git {
     color: lightseagreen;
+    font-size: .75rem;
 }
 
 .title {
@@ -58,15 +59,15 @@ ul {
 }
 
 .code {
-    text-decoration-color: green;
-}
-
-.lib {
     text-decoration-color: blue;
 }
 
-.frame {
+.lib {
     text-decoration-color: magenta;
+}
+
+.frame {
+    text-decoration-color: limegreen;
 }
 
 #right {
@@ -76,7 +77,7 @@ ul {
 }
 
 #right h2 {
-    margin-top: .5rem;
+    margin-top: 1rem;
 }
 
 #header {
@@ -92,8 +93,7 @@ ul {
 }
 
 #resume {
-    display: none;
     position: absolute;
-    bottom: .5rem;
-    left: 2rem;
+    bottom: 1rem;
+    left: 1rem;
 }
