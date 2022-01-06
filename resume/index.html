@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title></title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <!--<script src="main.js"></script>-->
+  <script src="main.js"></script>
 </head>
 <body>
   <div id="header" align="center">
@@ -20,24 +20,26 @@
     <b>Email</b></br>
     <text id='email'></text></br>
     <b>GitHub</b></br>
-    <text><a href="https://github.com/Dosx001/">Dosx001</a></text>
+    <text><a href="https://github.com/Dosx001/">Dosx001</a></text></br>
+    <b>Personal Website (WIP)</b></br>
+    <text><a href="https://dosx001.github.io/">Dosx001.github.io</a></text>
 
     <h2>Education</h2>
-    <text>California Polytechnic State University</text><br>
+    <text>California Polytechnic<br>State University</text><br>
     <text>San Luis Obispo, CA</text><br>
     <text>Bachelor of Art, Physics</text>
 
     <h2>Languages</h2>
     <text>
       <span class='code'>Python</span>,
-      <span class='code'>JavaScript</span>,
       <span class="code">TypeScript</span>,
       <span class="code">C++</span>,
       <span class='code'>HTML</span>,
+      <span class='code'>JavaScript</span>,
+      <span class="code">VimScript</span>,
       <span class='code'>CSS</span>,
       <span class="code">SCSS</span>,
-      Bash,
-      <span class="code">VimScript</span>,
+      <span class="code">Bash</span>,
       LabVIEW, MATLAB
     </text>
 
@@ -54,6 +56,7 @@
 
     <h2>Libraries</h2>
     <text>
+      React,
       <span class='lib'>Matplotlib</span>,
       <span class='lib'>NumPy</span>,
       jQuery,
@@ -67,155 +70,158 @@
       Mousetrap
     </text>
 
-    <h2>IDE / Text Editors</h2>
-    <text>Vim, Visual Studio Code, Visual Studio, Android Studio, PyCharm</text>
-
-    <h2>Package Managers</h2>
-    <text>Pacman, APT, pip, npm, winget Chocolatey</text>
-
     <h2>Other</h2>
-    <text>Git, Markdown, CMake, Makefile, Microsoft Office, Photoshop, AJAX, Arduino</text>
+    <text>
+      Git, Vim, VS Code, Markdown, npm, CMake, Makefile, winget,
+      Arduino, Photoshop, Microsoft Office, AJAX
+    </text>
   </aside>
 
   <div id="right">
-    <h2 style='margi n-top: 0 !important'>Personal Projects</h2>
-    <b>
-      GI-Artifact-Leveler: <a class='git' href="https://github.com/Dosx001/GI-Artifact-Leveler">Documentation & Source Code</a>
-    </b>
-    <b class="date">Fall 2021 - Present</b>
-    <ul>
-      <li>
-        Coded a <span class="code">Python</span> script to automate upgrading gear in
-        the game Genshin Impact
-      </li>
-      <li>
-        Designed an algorithm that scores gear, the score is then used to determine to lock,
-        scrap, or keep gear
-      </li>
-      <span class="lib"></span>
-      <li>
-        Employed <span class="lib">MSS</span> to capture screen and
-        <span class="lib">CV2</span> to modified the image
-      </li>
-      <li>
-        Extracted text from image using <span class="lib">Tesseract</span>
-        and corrected output using <span class="lib">FuzzyWuzzy</span>
-      </li>
-      <li>
-        Utilized <span class="lib">PyAutoGUI</span> to control mouse actions like
-        click, move, and scroll
-      </li>
-    </ul>
-
-    <b>
-      Vim-Template: <a class='git' href="https://github.com/Dosx001/vim-template">Documentation & Source Code</a>
-    </b>
-    <b class="date">Fall 2021</b>
-    <ul>
-      <li>
-        Designed a Vim plugin using <span class="code">VimScript</span> and Regular Expression
-        that generates starter code for multiple languages when opening new files
-      </li>
-      <li>
-        Vim-Template can also automate importing packages and can add
-        a personalize header with a custom format date
-      </li>
-    </ul>
-
-    <b>
-      <a href="https://animecalendar.github.io/">AnimeCalendar.github.io</a>:
-      <a class='git' href='https://github.com/Dosx001/anime-calendar'>Documentation & Source Code</a>
-    </b>
-    <b class="date">Winter 2020 - Present</b>
-    <ul>
-      <li>Built a responsive website with native
-        <span class='code'>JavaScript</span>,
-        <span class='code'>HTML</span>,
-        <span class='code'>CSS</span>,
-        <span class='code'>TypeScript</span>,
-        <span class='code'>SCSS</span>
-      </li>
-      <li>Users can create their own calendar by picking from all 76 Fall 2021 anime</li>
-      <li>Offers quick and easy access to each anime streams like Hulu, YouTube, VRV, etc.</li>
-      <li>Records and displays user’s watch history</li>
-      <li>
-        Coded a <span class='code'>Python</span>
-        <a href='https://github.com/Dosx001/anime-calendar/blob/main/shows/shows.py'>script</a>
-        with <span class='frame'>Selenium</span> to web scrape
-        and creates a JSON file containing currently airing anime titles,
-        air times, cover art, and stream links
-      </li>
-    </ul>
-    <b>
-      GitPrompt: <a class='git' href="https://github.com/Dosx001/GitPrompt">Documentation & Source Code</a>
-    </b>
-    <b class="date">Fall 2020 - Summer 2021</b>
-    <ul>
-      <li>
-        Programmed a multithreaded <span class="code">C++</span> program using OOP and pipes
-      </li>
-      <li>Displays a compact color coded Git Status inside your shell prompt</li>
+    <h2 style='margin-top: 0 !important'>Personal Projects</h2>
+    <div class="space top">
+      <b>
+        GI-Artifact-Leveler: <a class='git' href="https://github.com/Dosx001/GI-Artifact-Leveler">Documentation & Source Code</a>
+      </b>
+      <b class="date">Fall 2021</b>
       <ul>
+        <li>Designed an algorithm that optimizes gear updating in the game Genshin Impact</li>
+        <li>Produced Python script to automate mouse actions in in-game menu</li>
+        <li>Employed tools to capture and read onscreen images in real time</li>
         <li>
-          Check out all 20 different color codes
-          <a href="https://github.com/Dosx001/GitPrompt#git-status-color-codes">here</a>
+          Utilized libraries such as
+          <span class="lib">Tesseract</span>,
+          <span class="lib">MSS</span>,
+          <span class="lib">CV2</span>,
+          <span class="lib">FuzzyWuzzy</span>,
+          <span class="lib">PyAutoGUI</span>
         </li>
       </ul>
-      <li>In addition displays the latest commit log, number of stashes, and current branch</li>
-    </ul>
+    </div>
+
+    <div class="space">
+      <b>
+        <a href="https://animecalendar.github.io/">AnimeCalendar</a>:
+        <a class='git' href='https://github.com/Dosx001/anime-calendar'>Documentation & Source Code</a>
+      </b>
+      <b class="date">Winter 2020 - Present</b>
+      <ul>
+        <li>Created customizable calendar allowing users to pick from 76 Fall 2021 anime</li>
+        <li>Provided a quick access to each anime stream like Hulu, YouTube, Crunchyroll, etc.</li>
+        <li>Programmed a event handler to record and display user watch history</li>
+        <li>Built a responsive website with native
+          <span class='code'>JavaScript</span>,
+          <span class='code'>HTML</span>,
+          <span class='code'>CSS</span>,
+          <span class='code'>TypeScript</span>,
+          <span class='code'>SCSS</span>
+        </li>
+        <li>Deployed Selenium framework to web scrape airing titles, times, and streams</li>
+      </ul>
+    </div>
+
+    <div class="space">
+      <b>
+        GitPrompt: <a class='git' href="https://github.com/Dosx001/GitPrompt">Documentation & Source Code</a>
+      </b>
+      <b class="date">Fall 2020 - Summer 2021</b>
+      <ul>
+        <li>
+          Developed open source CLI tool that color codes files at various git stages
+        </li>
+        <li>
+          Coded a multithreaded <span class="code">C++</span> program with object oriented programming and pipes
+        </li>
+        <li>Adjusted user Linux prompt displaying latest commit log, total stashes, branch, etc.</li>
+      </ul>
+    </div>
+
+    <div class="space">
+      <b>
+        AliasMe: <a class='git' href="https://github.com/Dosx001/aliasme">Documentation & Source Code</a>
+      </b>
+      <b class="date">Winter 2020</b>
+      <ul>
+        <li>Improved open source <span class="code">Bash</span> script to run user generated
+          dynamic Linux aliases</li>
+        <li>Cooperated remotely with the Taiwan-based <a href="https://github.com/Jintin">creator</a></li>
+      </ul>
+    </div>
 
     <h2>Work Experience</h2>
-    <b>BEACON<span class="title">: Student Assistant</span></b>
-    <b class='date'>Summer 2017 - Fall 2019</b>
-    <ul>
-      <li>
-        Worked with a diverse multidisciplinary team from three universities
-        to design an antenna to detect neutrinos
-      </li>
-      <li>Took ownership of various projects like simulating antennas, building antenna, etc.</li>
-      <li>
-        Analyzed hundreds of simulations using
-        <span class='code'>Python</span>,
-        <span class='lib'>Matplotlib</span>, and
-        <span class='lib'>NumPy</span>
-      </li>
-      <li>Communicated with team through phone/video calls, Slack, and weekly meetings</li>
-    </ul>
-
+    <div class="space top">
+      <b>BEACON<span class="title">: Student Assistant</span></b>
+      <b class='date'>Summer 2017 - Fall 2019</b>
+      <ul>
+        <li>
+          Designed an array of radio antennas to detect high energy cosmic neutrinos
+        </li>
+        <li>Independently worked on simulating, prototyping, and constructing antennas</li>
+        <li>
+          Analyzed hundreds of simulations using
+          <span class='code'>Python</span>,
+          <span class='lib'>Matplotlib</span>, and
+          <span class='lib'>NumPy</span>
+        </li>
+        <li>
+          Communicated with a diverse multidisciplinary team from three universities
+        </li>
+      </ul>
+    </div>
     <h2>Relevant Coursework</h2>
-    <b>Data Structures || Fundamentals of Computer Science</b>
-    <b class="date">Spring 2020</b>
-    <ul>
-      <li>Programmed projects using Object Oriented Programming</li>
-      <li>Debugged and tested code using <span class='frame'>PyUnit</span> and
-        <span class='lib'>Coverage.py</span></li>
-      <li>Assisted more than dozens of peers with their assignments and debugging code</li>
-    </ul>
-    <b>Quantum Physics Laboratory I || II</b>
-    <b class="date">Fall 2018 || Winter 2019</b>
-    <ul>
-      <li>Used <span class='code'>Python</span>
-        in weekly technical reports for data visualization and analysis</li>
-      <li>Gave two technical presentations explaining experimental lab results</li>
-    </ul>
-    <b>Physics on the Computer</b>
-    <b class="date">Spring 2018</b>
-    <ul>
-      <li>Solved complex physics problems by coding simulations and data manipulation</li>
-      <li>Utilized numerical methods like Monte-Carlo, interpolation, etc.</li>
-    </ul>
-
+    <div class="space top">
+      <b>Data Structures & Fundamentals of Computer Science</b>
+      <b class="date">Spring 2020</b>
+      <ul>
+        <li>Implemented various data structures using object oriented programming</li>
+        <li>Performed unit testing for code using the PyUnit framework and Coverage.py</li>
+        <li>Aided dozens of peers by debugging projects and answering questions</li>
+      </ul>
+    </div>
+    <div class="space">
+      <b>Advanced Instrumentation in Experimental Physics</b>
+      <b class="date">Spring 2020</b>
+      <ul>
+        <li>Constructed basic collision-avoiding robot using Arduino motors and sonar</li>
+        <li>Programmed an Arduino to measure temperature change using humidity sensors</li>
+        <li>Automate categorizing filter type from input signals using LabVIEW</li>
+      </ul>
+    </div>
+    <div class="space">
+      <b>Quantum Physics Laboratory I & II</b>
+      <b class="date">Fall 2018 & Winter 2019</b>
+      <ul>
+        <li>
+          Integrated <span class='code'>Python</span>
+          in weekly technical reports for data visualization and analysis
+        </li>
+        <li>Delivered technical presentations using lab findings related to quantum events</li>
+        <li>Handled various equipment like oscilloscopes, signal generators, multimeters, etc.</li>
+      </ul>
+    </div>
+    <div class="space">
+      <b>Physics on the Computer</b>
+      <b class="date">Spring 2018</b>
+      <ul>
+        <li>Solved complex physics problems by coding simulations and data manipulation</li>
+        <li>Utilized numerical methods like Monte-Carlo, interpolation, optimization, etc.</li>
+      </ul>
+    </div>
     <h2>Leadership Experience</h2>
-    <b>Cal Poly Chess Club: <span class="title">Event Coordinator</span></b>
-    <b class="date">Fall 2017 - Spring 2018</b>
-    <ul>
-      <li>Collaborated with cabinet to plan and organize public events</li>
-    </ul>
-    <b>Ballet Folklórico de Cal Poly: <span class="title">Public Relations</span></b>
-    <b class="date">Fall 2016 - Spring 2017</b>
-    <ul>
-      <li>Maintained the public image and online presence of the club</li>
-    </ul>
+    <div class="space top">
+      <b>Cal Poly Chess Club: <span class="title">Event Coordinator</span></b>
+      <b class="date">Fall 2017 - Spring 2018</b>
+      <ul>
+        <li>Collaborated with cabinet to plan and organize public events</li>
+      </ul>
+    </div>
+    <div class="space">
+      <b>Ballet Folklórico de Cal Poly: <span class="title">Public Relations</span></b>
+      <b class="date">Fall 2016 - Spring 2017</b>
+      <ul>
+        <li>Maintained the public image and online presence of the club</li>
+      </ul>
+    </div>
     <div id='resume' align='center'>
       This
       <a href="https://github.com/Dosx001/Dosx001/tree/main/resume">resume</a>
