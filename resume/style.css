@@ -4,45 +4,40 @@ html {
   font-family: Segoe UI;
   font-size: 14.5px;
 }
-
 aside {
   position: absolute;
   width: 29%;
 }
-
 aside h2 {
   margin-top: 2rem;
 }
-
 h1 {
   font-size: 3rem;
 }
-
 h2 {
   font-size: 1.5rem;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   margin: 5px 0px 0px 0px;
 }
-h2, #header {
+h2,
+#header {
   background: #18374d;
   color: white;
 }
-
-b, text {
-  padding-left: .5rem;
+b,
+text {
+  padding-left: 0.5rem;
   box-decoration-break: clone;
 }
-
 a {
   color: dodgerblue;
 }
-
 ul {
   margin: 0;
   padding: 0 0 0 1.25rem;
 }
 .space {
-  margin: .4rem 0;
+  margin: 0.4rem 0;
 }
 .date {
   position: absolute;
@@ -51,33 +46,27 @@ ul {
 .top {
 }
 .git {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
-
 .title {
 }
-
 #right {
   margin-left: 30%;
   border-left: 2px solid black;
   padding-left: 4px;
 }
-
 #right h2 {
   /* margin-top: .75rem; */
 }
-
 #header {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
 }
-
 #name {
   margin: 0rem;
 }
-
 #resume {
   position: absolute;
   bottom: 1rem;
