@@ -1,6 +1,6 @@
 html {
   padding-top: 3.5rem;
-  background: white;
+  background: White;
   font-family: Segoe UI;
   font-size: 14.5px;
 }
@@ -10,6 +10,9 @@ aside {
 }
 aside h2 {
   margin-top: 2rem;
+}
+aside span {
+  padding-left: 0.5rem;
 }
 h1 {
   font-size: 3rem;
@@ -22,15 +25,19 @@ h2 {
 h2,
 #header {
   background: #18374d;
-  color: white;
+  color: White;
+}
+p {
+  padding: 0;
+  margin: 0;
 }
 b,
-text {
+p {
   padding-left: 0.5rem;
   box-decoration-break: clone;
 }
 a {
-  color: dodgerblue;
+  color: DodgerBlue;
 }
 ul {
   margin: 0;
@@ -43,23 +50,17 @@ ul {
   position: absolute;
   right: 10px;
 }
-.top {
-}
 .git {
   font-size: 0.75rem;
 }
-.title {
-}
 #right {
   margin-left: 30%;
-  border-left: 2px solid black;
+  border-left: 2px solid Black;
   padding-left: 4px;
-}
-#right h2 {
-  /* margin-top: .75rem; */
 }
 #header {
   position: absolute;
+  text-align: center;
   top: 0;
   left: 0;
   right: 0;
@@ -69,6 +70,7 @@ ul {
 }
 #resume {
   position: absolute;
+  text-align: center;
   bottom: 1rem;
   left: 1rem;
 }
