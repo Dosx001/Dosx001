@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="style.css" target="_blank" />
+    <!-- >script src="main.js"></script> -->
   </head>
   <body>
     <div id="header">
       <h1 id="name">Andres Rodriguez Michel</h1>
     </div>
     <aside>
-      <h2 style="margin-top: 0 !important">Details</h2>
+      <h2>Details</h2>
       <b>Location</b><br />
       <span id="address"></span><br />
       <b>Phone</b><br />
@@ -19,10 +19,16 @@
       <b>Email</b><br />
       <span id="email"></span><br />
       <b>GitHub</b><br />
-      <span><a href="https://github.com/Dosx001/">Dosx001</a></span>
+      <span
+        ><a href="https://github.com/Dosx001/" target="_blank">Dosx001</a></span
+      >
       <br />
       <b>Personal Website (WIP)</b><br />
-      <span><a href="https://dosx001.github.io/">Dosx001.github.io</a></span>
+      <span
+        ><a href="https://dosx001.github.io/" target="_blank"
+          >Dosx001.github.io</a
+        ></span
+      >
       <h2>Education</h2>
       <p>
         California Polytechnic<br />
@@ -36,10 +42,10 @@
         CSS, SCSS, MATLAB
       </p>
       <h2>Skills</h2>
-      <p>Git, AWS, Markdown, CMake, Makefile, Arduino</p>
+      <p>Git, AWS, Markdown, CMake, Makefile, Arduino, soldering, CAD</p>
       <h2>Software</h2>
       <p>
-        Docker, PostgreSQL, VirtualBox, Photoshop, Microsoft Office, LabVIEW,
+        PostgreSQL, VirtualBox, Docker, Photoshop, Microsoft Office, LabVIEW,
         winget
       </p>
       <h2>Operating Systems</h2>
@@ -55,7 +61,7 @@
       <h2>Work Experience</h2>
       <div class="space">
         <b>BAE Systems<span>: Software Engineer</span></b>
-        <b class="date">Winter 2022 - Present</b>
+        <b class="date">Fall 2021 - Present</b>
         <ul>
           <li>Integrate and test Linux software on military equipment</li>
           <li>
@@ -91,8 +97,60 @@
       </div>
       <h2>Personal Projects</h2>
       <div class="space">
+        <b>
+          <a href="https://animecalendar.github.io/" target="_blank"
+            >AnimeCalendar</a
+          >:
+        </b>
+        <a
+          class="git"
+          href="https://github.com/Dosx001/anime-calendar"
+          target="_blank"
+          >Documentation & Source Code</a
+        >
+        <b class="date">Winter 2020 - Summer 2022</b>
+        <ul>
+          <li>
+            Created a customizable calendar allowing users to pick from
+            currently airing anime
+          </li>
+          <li>
+            Provided a quick access to each anime stream like Hulu, YouTube,
+            Crunchyroll, etc.
+          </li>
+          <li>
+            Programmed a event handler to record and display user watch history
+          </li>
+          <li>
+            Built a responsive website with native TypeScript, SCSS, and HTML
+          </li>
+          <li>
+            Deployed Selenium and cURL to web scrape cover art, stream links,
+            air times, etc.
+          </li>
+        </ul>
+      </div>
+      <div class="space">
+        <b><a href="https://anical.vercel.app/" target="_blank">Anical</a></b>
+        <b class="date">Summer 2022 - Present</b>
+        <ul>
+          <li>
+            Building a full stack Next web app, successor to Anime Calendar
+          </li>
+          <li>Created a login and authentication system using NextAuth</li>
+          <li>Store and manage user info using AWS PostgreSQL database</li>
+          <li>
+            Designed an end-to-end type safe full stack with TypeScript, tRPC,
+            Prisma, Zod
+          </li>
+        </ul>
+      </div>
+      <div class="space">
         <b>GI-Artifact-Leveler:</b>
-        <a class="git" href="https://github.com/Dosx001/GI-Artifact-Leveler"
+        <a
+          class="git"
+          href="https://github.com/Dosx001/GI-Artifact-Leveler"
+          target="_blank"
           >Documentation & Source Code</a
         >
         <b class="date">Fall 2021</b>
@@ -112,36 +170,11 @@
         </ul>
       </div>
       <div class="space">
-        <b> <a href="https://animecalendar.github.io/">AnimeCalendar</a>: </b>
-        <a class="git" href="https://github.com/Dosx001/anime-calendar"
-          >Documentation & Source Code</a
-        >
-        <b class="date">Winter 2020 - Present</b>
-        <ul>
-          <li>
-            Created a customizable calendar allowing users to pick from
-            currently airing anime
-          </li>
-          <li>
-            Provided a quick access to each anime stream like Hulu, YouTube,
-            Crunchyroll, etc.
-          </li>
-          <li>
-            Programmed a event handler to record and display user watch history
-          </li>
-          <li>
-            Built a responsive website with native JavaScript, HTML, CSS,
-            TypeScript, SCSS
-          </li>
-          <li>
-            Deployed Selenium and cURL to web scrape cover art, streams links,
-            and air times
-          </li>
-        </ul>
-      </div>
-      <div class="space">
         <b>GitPrompt:</b>
-        <a class="git" href="https://github.com/Dosx001/GitPrompt"
+        <a
+          class="git"
+          href="https://github.com/Dosx001/GitPrompt"
+          target="_blank"
           >Documentation & Source Code</a
         >
         <b class="date">Fall 2020 - Summer 2021</b>
@@ -196,24 +229,6 @@
         </ul>
       </div>
       <div class="space">
-        <b>Quantum Physics Laboratory I & II</b>
-        <b class="date">Fall 2018 & Winter 2019</b>
-        <ul>
-          <li>
-            Integrated Python in weekly technical reports for data visualization
-            and analysis
-          </li>
-          <li>
-            Delivered technical presentations using lab findings related to
-            quantum events
-          </li>
-          <li>
-            Handled various equipment like oscilloscopes, signal generators,
-            multimeters, etc.
-          </li>
-        </ul>
-      </div>
-      <div class="space">
         <b>Physics on the Computer</b>
         <b class="date">Spring 2018</b>
         <ul>
@@ -244,7 +259,11 @@
       </div>
       <div id="resume">
         This
-        <a href="https://github.com/Dosx001/Dosx001/tree/main/resume">resume</a>
+        <a
+          href="https://github.com/Dosx001/Dosx001/tree/main/resume"
+          target="_blank"
+          >resume</a
+        >
         was created using<br />
         HTML & CSS
       </div>
