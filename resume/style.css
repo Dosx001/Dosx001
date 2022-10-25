@@ -49,9 +49,9 @@ ul {
 .space {
   margin: 0.3rem 0;
 }
-.date {
-  position: absolute;
-  right: 10px;
+.space > div {
+  display: flex;
+  justify-content: space-between;
 }
 .git {
   font-size: 0.75rem;
