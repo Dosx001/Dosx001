@@ -1,66 +1,82 @@
 html {
-  padding-top: 5.0rem;
+  padding-top: 5rem;
   background: White;
   font-family: Segoe UI;
   font-size: 14.5px;
 }
+
 aside {
   position: absolute;
   width: 29%;
 }
+
 aside h2:first-child {
   margin-top: 0;
 }
+
 aside h2 {
   margin-top: 2rem;
 }
+
 aside span {
   padding-left: 0.5rem;
 }
+
 h1 {
   font-size: 4rem;
 }
+
 h2 {
   font-size: 1.5rem;
   padding-left: 0.5rem;
   margin: 5px 0px 0px 0px;
 }
+
 h2,
 #header {
   background: #18374d;
   color: White;
 }
+
 p {
   padding: 0;
   margin: 0;
 }
+
 b,
 p {
   padding-left: 0.5rem;
   box-decoration-break: clone;
 }
+
 a {
   color: DodgerBlue;
 }
+
 ul {
   margin: 0;
   padding: 0 0 0 1.25rem;
 }
+
 .space {
-  margin: .75rem 0;
+  margin: 0.75rem 0;
 }
-.space > div {
+
+.space>div {
   display: flex;
   justify-content: space-between;
 }
+
 .git {
   font-size: 0.75rem;
 }
+
 #right {
   margin-left: 30%;
   border-left: 2px solid Black;
   padding-left: 4px;
 }
+
 #header {
   position: absolute;
   text-align: center;
@@ -68,9 +84,11 @@ ul {
   left: 0;
   right: 0;
 }
+
 #name {
   margin: 0rem;
 }
+
 #resume {
   position: absolute;
   text-align: center;
